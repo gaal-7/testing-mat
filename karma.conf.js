@@ -33,7 +33,6 @@ module.exports = function (config) {
       ]
     },
     reporters: ['progress', 'kjhtml'],
-    browsers: ['Chrome'],
     browsers: ['ChromeHeadlessCI'],
     customLaunchers: {
       ChromeHeadlessCI: {
@@ -45,3 +44,4 @@ module.exports = function (config) {
     restartOnFileChange: true
   });
 };
+
