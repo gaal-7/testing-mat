@@ -67,4 +67,5 @@ describe('MediaComponent', () => {
     expect(component.hours).toEqual(mockData.data);
     expect(component.calculateMean(component.hours)).toEqual(60.32);
   })); 
+  
 });
