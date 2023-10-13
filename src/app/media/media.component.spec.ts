@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed, fakeAsync, tick } from '@angular/core/testing';
+import { MediaComponent } from './media.component';
 import { SizeService } from '../services/size.service';
 import { HoursService } from '../services/hours.service';
-import { MediaComponent } from './media.component';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { of } from 'rxjs';
 
