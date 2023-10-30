@@ -104,7 +104,7 @@ export class Calculate {
         } while (Math.abs(integral - integralPrev) > error);
 
         console.log(`p=${integral}`);
-        return integral;
+               return integral;   
     }
 
 
